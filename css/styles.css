@@ -188,11 +188,10 @@ footer p {
 }
 
 .projects-image {
-    border: 3px solid #f05454;
+    border: 1px solid #f05454;
 }
 
 .projects-image:hover {
-    border-color: #e8e8e8;
     animation: enlarge 750ms;
 }
 
