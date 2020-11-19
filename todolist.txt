@@ -1,6 +1,6 @@
 To Do: 
 - Finish styling the contact me section
-- Add another project to the project section
+- Add another project to the project section ✔
 - Fine tune the CSS to make website look better
 - Refactor CSS and JS code
 - Look over webpage one last time

@@ -65,6 +65,20 @@ footer p {
     color: #e8e8e8;
 }
 
+form {
+    margin-top: 3%;
+}
+
+form input {
+    margin: 0.50rem auto;
+    border: none;
+}
+
+form.button {
+    border: none;
+    
+}
+
 /* Id's */
 
 #heading-section {
@@ -213,6 +227,12 @@ text-align: center;
 .webteach_app-image {
     width: 30rem;
     float: left;
+}
+
+.todolist-image {
+    width: 20rem;
+    float: left;
+    margin-right: 2%;
 }
 
 
