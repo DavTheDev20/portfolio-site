@@ -1,239 +1,311 @@
 /* Standard HTML elements */
 
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 1.15rem;
-    line-height: 1.25;
-    
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.25;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
 }
 
 nav {
-position: absolute;
-width: 25%;
-top: 7%;
-right: 5%;
-
+  position: absolute;
+  width: 25%;
+  top: 7%;
+  right: 5%;
 }
 
 nav a {
-    padding-left: 1.5%;
-    font-size: 1.3rem;
-    margin-left: 7%;
-    border-left: 3px solid #e8e8e8; /* Change border color */
-    padding-left: 5%;
-    font-weight: 600;
-    letter-spacing: 1px;
+  padding-left: 1.5%;
+  font-size: 1.3rem;
+  margin-left: 7%;
+  border-left: 3px solid #e8e8e8; /* Change border color */
+  padding-left: 5%;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 nav .first_anchor {
-    border: none;
-    margin-left: 0;
+  border: none;
+  margin-left: 0;
 }
 
 a {
-    color: #f05454;
-    text-decoration: none;
+  color: #f05454;
+  text-decoration: none;
 }
 a:hover {
-    color: #e8e8e8;
+  color: #e8e8e8;
 }
 
 footer {
-    background-color: #30475e;
-    text-align: center;
-    font-size: 1.5rem;
-    padding-top: .5%;
+  background-color: #30475e;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 0.5%;
 }
 
 footer a {
-    margin: 1.5%;
+  margin: 1.5%;
 }
 
 footer p {
-    margin-top: 1rem;
-    padding-bottom: 5px;
-    font-size: 1rem;
-    color: #e8e8e8;
+  margin-top: 1rem;
+  padding-bottom: 5px;
+  font-size: 1rem;
+  color: #e8e8e8;
 }
 
 form {
-    margin-top: 3%;
+  margin-top: 3%;
 }
 
 form input {
-    margin: 0.50rem auto;
-    border: none;
+  margin: 0.5rem auto;
+  border: none;
 }
 
 form.button {
-    border: none;
-    
+  border: none;
 }
 
 /* Id's */
 
 #heading-section {
-    background: linear-gradient(#222831, #e8e8e8);
-    text-shadow: 2px 2px 4px #222831;
+  background: linear-gradient(#222831, #e8e8e8);
+  text-shadow: 2px 2px 4px #222831;
 }
 
 #contact-info {
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 15%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 15%;
 }
 
 #projects {
-    padding-bottom: 15%;
+  padding-bottom: 15%;
 }
-
 
 /* Classes */
 .colored-section {
-    background-color: #222831;
-    color: #e8e8e8;
-    padding-bottom: 50.1%;
+  background-color: #222831;
+  color: #e8e8e8;
+  padding-bottom: 50.1%;
 }
 
 .white-section {
-    background-color: #e8e8e8;
-    color: #222831;
-    padding-bottom: 7%;
+  background-color: #e8e8e8;
+  color: #222831;
+  padding-bottom: 7%;
 }
 
 .dev_image {
-    width: 17%;
-    position: absolute;
-    top: 3.5%;
-    left: 2%;
+  width: 17%;
+  position: absolute;
+  top: 3.5%;
+  left: 2%;
 }
 
 .dev_image:hover {
-    cursor: pointer;
-    
+  cursor: pointer;
 }
 
-.heading-bottom  {
-    text-align: center;
-    position: absolute;
-    left: 41%;
-    top: 40%;
-    font-size: 1.8rem;
+.heading-bottom {
+  text-align: center;
+  position: absolute;
+  left: 41%;
+  top: 40%;
+  font-size: 1.8rem;
 }
 
 .heading-bottom h1 {
-    letter-spacing: 2px;
-    margin-bottom: 2%;
+  letter-spacing: 2px;
+  margin-bottom: 2%;
 }
 
 .heading-bottom i {
-    font-size: 2.75rem;
-    border-radius: 100%;
-    margin-top: 5%;
+  font-size: 2.75rem;
+  border-radius: 100%;
+  margin-top: 5%;
 }
 
 .heading-top {
-    text-align: center;
-    width: 45%;
-    margin: 0 auto;
-    padding-top: 3%;
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
+  padding-top: 3%;
 }
 
 .heading-top h1 {
-    margin-bottom: 2%;
+  margin-bottom: 2%;
 }
 
 .container-right {
-    width: 55%;
-    text-align: right;
-    justify-content: right;
-    margin: 8% auto;
-    display: block;
-    line-height: 1.5;
+  width: 55%;
+  text-align: right;
+  justify-content: right;
+  margin: 8% auto;
+  display: block;
+  line-height: 1.5;
 }
 
 .container-left {
-    width: 55%;
-    text-align: left;
-    justify-content: left;
-    margin: 7% auto;
-    display: block;
-    line-height: 1.5;
+  width: 55%;
+  text-align: left;
+  justify-content: left;
+  margin: 7% auto;
+  display: block;
+  line-height: 1.5;
 }
 
-
 .desu-image {
-    width: 20rem;
-    float: right;
-    margin-left: 2.5%;
+  width: 20rem;
+  float: right;
+  margin-left: 2.5%;
 }
 
 .photoshop-image {
-    width: 12.5rem;
-    float: left;
-    margin-right: 3%;
+  width: 12.5rem;
+  float: left;
+  margin-right: 3%;
 }
 
 .msoffice-image {
-    width: 20rem;
-    float: right;
-    margin-left: 2.5%;
+  width: 20rem;
+  float: right;
+  margin-left: 2.5%;
 }
 
 .web-dev-image {
-    width: 20rem;
-    float: left;
-    margin-right: 5%;
+  width: 20rem;
+  float: left;
+  margin-right: 5%;
 }
 
 .skills {
-    text-align: center;
-    margin: 0 auto;
-    text-decoration: underline;
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: underline;
 }
 
 .projects-image {
-    border: 1px solid #f05454;
+  border: 1px solid #f05454;
 }
 
 .projects-image:hover {
-    animation: enlarge 750ms;
+  animation: enlarge 750ms;
 }
 
 @keyframes enlarge {
-    50% {transform: scale(1.25);}
+  50% {
+    transform: scale(1.25);
+  }
 }
 
 .newsletter-app p {
-margin-top: 2%; 
-text-align: center;
+  margin-top: 2%;
+  text-align: center;
 }
 
 .newsletter-image {
-    width: 17rem;
-    float: right;
-    margin-left: 2%;
+  width: 17rem;
+  float: right;
+  margin-left: 2%;
 }
 
 .webteach_app-image {
-    width: 30rem;
-    float: left;
+  width: 30rem;
+  float: left;
 }
 
 .todolist-image {
-    width: 20rem;
-    float: left;
-    margin-right: 2%;
+  width: 20rem;
+  float: left;
+  margin-right: 2%;
 }
 
+.blktechy_app-image {
+  width: 85%;
+}
 
+@media only screen and (max-device-width: 768px) {
+  body {
+    font-size: 13px;
+  }
 
+  .dev_image {
+    width: 125px;
+    top: 50px;
+  }
+
+  nav {
+    width: 50px;
+    font-size: 1rem;
+    display: none;
+  }
+
+  .heading-top {
+    width: 300px;
+  }
+
+  .heading-bottom {
+    font-size: 0.95rem;
+    top: 25px;
+    right: 20px;
+  }
+
+  .desu {
+    width: 350px;
+    justify-content: right;
+  }
+
+  .desu p {
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .desu-image {
+    width: 135px;
+    height: 55px;
+  }
+
+  .photoshop {
+    width: 300px;
+  }
+
+  .photoshop-image {
+    width: 75px;
+  }
+
+  .msoffice-image {
+    width: 125px;
+  }
+
+  .web-dev-image {
+    width: 125px;
+  }
+
+  .newsletter-image {
+    width: 200px;
+  }
+
+  #projects {
+    text-align: center;
+  }
+
+  .todolist-image {
+    width: 200px;
+  }
+}
